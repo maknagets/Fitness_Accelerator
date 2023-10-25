@@ -1,0 +1,46 @@
+.header {
+    background-color: $color-main;
+    color: $color-on-black;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 103px;
+}
+
+.header__logo {
+    width: 120px;
+    height: 26px;
+}
+
+.header__text {
+    margin: 0;
+    font-family: "Roboto Condensed";
+    line-height: 26px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.sub-title {
+    font-weight: 600;
+    line-height: 54px;
+    font-size: 54px;
+}
+
+.main-title{
+    font-family: "Alumni Sans ExtraBold";
+    font-weight: 800;
+    line-height: 110px;
+    font-size: 92px;
+}
+
+.list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    font-family: "Roboto Condensed";
+    line-height: 22px;
+    font-size: 14px;
+    font-weight: 400;
+}
